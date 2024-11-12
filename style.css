@@ -1,3 +1,19 @@
+section {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+   }
+   
+
 @media (max-width: 768px) {
     nav ul {
     display: none;
@@ -72,10 +88,4 @@ nav ul li ol li a {
 
 nav ul li ol li a:hover {
     background-color: #46251c;  
-}
-
-div{
-    margin-top: 100px; 
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
 }
