@@ -73,3 +73,9 @@ nav ul li ol li a {
 nav ul li ol li a:hover {
     background-color: #46251c;  
 }
+
+div{
+    margin-top: 100px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
