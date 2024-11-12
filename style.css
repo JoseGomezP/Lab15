@@ -12,35 +12,6 @@ section {
     text-align: center;
     padding: 1em 0;
    }
-   
-
-@media (max-width: 768px) {
-    nav ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #333;
-    }
-    nav ul li a {
-    padding: 1em;
-    text-align: center;
-    }
-    #nav-toggle {
-    display: block;
-    }
-    .nav-open ul {
-    display: flex;
-    }
-   }
-   nav ul {
-    display: flex;  
-    flex-direction: row;
-    list-style-type: none;  
-    padding: 0;
-    margin: 0;
-    justify-content: center; 
-    background-color: transparent;  
-}
 
 nav ul li {
     margin: 0 20px; 
